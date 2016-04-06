@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+h5 {
+  background color: #C09E7B;
+}
+
+h1 {
+  color: #17251A;
+}
+
+h2 {
+  color: #596283;
+}
+
+header {
+  font-size: large;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h3 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+#navigation {
+  float: left;
+}
+
+#maincolumn {
+  float: none;
+}
+
+#footer {
+  float:none;
+  color: #596283;
+}
