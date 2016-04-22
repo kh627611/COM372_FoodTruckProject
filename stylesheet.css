@@ -1,7 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
 
 h5 {
-  background color: #C09E7B;
+  background-color: #C09E7B;
 }
 
 h1 {
@@ -10,6 +15,8 @@ h1 {
 
 h2 {
   color: #596283;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
 }
 
 header {
@@ -19,17 +26,44 @@ header {
 
 h3 {
   font-family: 'Quicksand', sans-serif;
-}
-
-#navigation {
-  float: left;
-}
-
-#maincolumn {
-  float: none;
+  font-size: large;
 }
 
 #footer {
+  padding: 30px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  text-align: center;
   float:none;
   color: #596283;
+  style: none;
+}
+
+nav a {
+  display: inline-block;
+  border: 3px solid black;
+  padding: 30px;
+  margin-bottom: 30px;
+  width: 19.6%;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: large;
+  font-family: 'Quicksand', sans-serif;
+  color: #596283;
+  text-decoration: none;
+}
+
+#maincolumn {
+  margin-left: 10px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h6 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: large;
+}
+
+a {
+  color: inherit;
+  style: none;
 }
